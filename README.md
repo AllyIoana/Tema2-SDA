@@ -2,11 +2,11 @@
 
 SDA = Structuri de date si algoritmi
 
--> Am ales sa lucrez cu liste generice dublu inlantuite circulare.
--> Pentru a evita iterarea prin acestea, de fiecare data am luat un TLG auxiliar,
+- Am ales sa lucrez cu liste generice dublu inlantuite circulare.
+- Pentru a evita iterarea prin acestea, de fiecare data am luat un TLG auxiliar,
 am mutat stiva/coada in lista auxiliara, cu ajutorul functiilor specifice (Extract/
 Pop si Add_LastLG - se gasesc in functiiLG.c) si analog am mutat din auxiliar in cea
 initiala pentru a o forma din nou.
--> In fisierul ABC.c se gasesc functiile corespunzatoare task-urilor A, B si C.
--> Folosim un vector de aparitii pentru a determina un ID liber pentru task-uri.
--> Printarea celor 3 cozi se realizeaza asemanator (in main.c).
+- In fisierul ABC.c se gasesc functiile corespunzatoare task-urilor A, B si C.
+- Folosim un vector de aparitii pentru a determina un ID liber pentru task-uri.
+- Printarea celor 3 cozi se realizeaza asemanator (in main.c).
